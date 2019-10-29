@@ -13,11 +13,11 @@ pod install
 ## Usage
 ```ruby
  IntroduceViewController *vc = [[IntroduceViewController alloc] initWithImages:images];
- [vc setBackgroundColor:[UIColor colorWithRed:239/255.f green:188/255.f blue:18/255.f alpha:1.0]];
+ [vc setBackgroundColor:[UIColor whiteColor]];
  [vc setPageControlSelectedColor:[UIColor darkGrayColor]];
  vc.isLastPageShowDoneButton = YES;
  vc.endBlock = ^{
-    [self changeRootViewToTabVC];
+    [self doSomething];
  };
 ```
 
