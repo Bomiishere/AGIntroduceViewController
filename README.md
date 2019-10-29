@@ -1,11 +1,16 @@
 # AGIntroduceViewController
 It's an introduce view controller for images.
 
+##Usage
 
-1. add AGIntroduceViewController to your podfile
+```ruby
+use_frameworks!
+pod 'AGIntroduceViewController-Objc', :git => "https://github.com/Bomiishere/AGIntroduceViewController.git"
+```
+```ruby
+pod install
+```
 
-```pod 'AGIntroduceViewController-Objc', :git => "https://github.com/Bomiishere/AGIntroduceViewController.git"```
-
-2. then pod install
-
-```pod install ```
+##Environment
+* iOS: 11.0
+* language: Objective-C
