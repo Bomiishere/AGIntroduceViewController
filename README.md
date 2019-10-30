@@ -4,7 +4,7 @@ It's an introduce view controller for images.
 ## Install
 ```ruby
 use_frameworks!
-pod 'AGIntroduceViewController-Objc', :git => "https://github.com/Bomiishere/AGIntroduceViewController.git"
+pod 'AGIntroduceViewController-Objc'
 ```
 ```ruby
 pod install
